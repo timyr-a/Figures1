@@ -4,11 +4,7 @@ package com.company.model;
  * Created by User on 18.07.2017.
  */
 public abstract class Figure {
-    private String name;
-
-    public Figure(String name) {
-        this.name = name;
-    }
+    protected String name;
 
     public String getName() {
         return name;
