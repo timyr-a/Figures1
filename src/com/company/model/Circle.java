@@ -6,7 +6,7 @@ package com.company.model;
 public class Circle extends Ellipse {
     public Circle(double diameter) {
         super(diameter, diameter);
-        this.name = "Окружность";
+        setName("Окружность");
     }
 
     public double getPerimeter(){

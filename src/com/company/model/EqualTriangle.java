@@ -6,7 +6,7 @@ package com.company.model;
 public class EqualTriangle extends IsoTriangle {
     public EqualTriangle(double side) {
         super(side, side);
-        this.name = "Равносторонний треугольник";
+        setName("Равносторонний треугольник");
     }
 
     public double getPerimeter(){

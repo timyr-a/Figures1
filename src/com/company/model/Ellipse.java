@@ -9,7 +9,7 @@ public class Ellipse extends Figure {
     protected double axisB;
 
     public Ellipse(double axisA, double axisB) {
-        this.name = "Эллипс";
+        setName("Эллипс");
         this.axisA = axisA;
         this.axisB = axisB;
     }
